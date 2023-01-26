@@ -8,7 +8,7 @@ form.addEventListener('submit', function(e) {
     const numeroB = document.getElementById('numeroB')
 
 
-    function validaForm () {    
+    function validaForm (numeroA, numeroB) {    
         if (numeroA < numeroB) {
             alert("Form valido")
         } else {
@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e) {
         }
     }
     
-    validaForm()
+    validaForm(numeroA, numeroB)
     
 })
 
